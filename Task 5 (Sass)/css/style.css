@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 168px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header div {
+  width: 95%;
+}
+header h2 {
+  font-size: 2em;
+  line-height: 1.25;
+  font-weight: 300;
+}
+header p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-top: 1rem;
+  font-family: sans-serif;
+}
+
+.border-bottom {
+  height: 0.25rem;
+  background-image: linear-gradient(to right, #c69 0%, #c69 8.33333%, #b37399 8.33333%, #b37399 16.66667%, #998099 16.66667%, #998099 25%, #699 25%, #699 33.33333%, #d2e1dd 33.33333%, #d2e1dd 41.66667%, #fff 41.66667%, #fff 50%, #f2ece4 50%, #f2ece4 58.33333%, #e1d7d2 58.33333%, #e1d7d2 66.66667%, #dadbdf 66.66667%, #dadbdf 75%, #808c99 75%, #808c99 83.33333%, #6b717f 83.33333%, #6b717f 91.66667%, #036 91.66667%, #036 100%);
+  background-size: 100%;
+}
+
+.main-header {
+  width: 95%;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header .logo img {
+  width: 128px;
+  height: 96px;
+}
+.main-header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.main-header nav ul li {
+  list-style: none;
+  padding: 0.75rem 1rem;
+}
+.main-header nav ul li:hover {
+  background: rgba(218, 219, 223, 0.25);
+}
+.main-header nav ul li a {
+  color: #036;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.main-header nav ul li input {
+  width: 136px;
+  height: 36px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px;
+  color: #6b717f;
+}
+
+.banner {
+  background-color: rgb(223, 240, 240);
+}
+
+.css-superpower-heading {
+  height: 80px;
+  width: 95%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-superpower-heading h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #969faf;
+  font-family: sans-serif;
+}
+
+.glasses-section {
+  width: 95%;
+  height: 247px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.glasses-section .intro p {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #699;
+  font-weight: 300;
+  line-height: 1.7;
+}
+.glasses-section .glasses-img img {
+  width: 619px;
+  height: 215px;
+}
+
+.version {
+  height: 64px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background: #bf4080;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.version ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.version ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.version ul li a {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.version ul li:hover {
+  border-bottom-color: rgba(218, 219, 223, 0.75);
+  background: rgba(218, 219, 223, 0.25);
+}
+
+.features {
+  width: 95%;
+  margin: 48px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.features .detail {
+  width: 400px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.features .detail p {
+  margin: 1rem 0px;
+  font-size: 1rem;
+  letter-spacing: 0.0625em;
+  line-height: 1.5;
+  color: #6b717f;
+}
+.features .detail h1 {
+  margin-top: 2.5rem;
+  line-height: 1.25;
+  letter-spacing: -0.03125;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #6b717f;
+}
+
+footer {
+  width: 95%;
+  margin: auto 48px;
+}
+footer .main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+footer div p {
+  font-size: 1rem;
+  color: #6b717f;
+  line-height: 1.5;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: left;
+  padding-top: 10px;
+  gap: 20px;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  border-bottom: 1px solid rgba(218, 219, 223, 0.5);
+  color: #036;
+  font-size: 1rem;
+  font-weight: 600;
+}
+footer .macStadium-logo img {
+  width: 112px;
+  height: 46px;
+}
+footer div {
+  padding: 10px;
+}
+footer div button {
+  height: 30px;
+  border: none;
+  box-sizing: border-box;
+  padding: 1px 12px 1px 12px;
+  background-color: #1d9bf0;
+  color: #fff;
+  border-radius: 9999px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
+  .main-header {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .main-header .logo img {
+    width: 128px;
+    height: 96px;
+  }
+  .main-header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  .main-header nav ul li {
+    list-style: none;
+    padding: 0.75rem 1rem;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-header nav ul li:hover {
+    background: rgba(218, 219, 223, 0.25);
+  }
+  .main-header nav ul li a {
+    color: #036;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  .main-header nav ul li input {
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    color: #6b717f;
+  }
+  .glasses-section {
+    width: 100%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 2;
+  }
+  .glasses-section .intro p {
+    padding: 1rem;
+    font-size: 2rem;
+    color: #699;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+  .glasses-section .glasses-img img {
+    width: 400px;
+    height: 215px;
+  }
+  .css-superpower-heading {
+    height: 80px;
+    width: 95%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .css-superpower-heading h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #969faf;
+    font-family: sans-serif;
+  }
+  footer {
+    width: 100%;
+    margin: auto 48px;
+  }
+  footer .main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 48px;
+    padding-top: 48px;
+  }
+  footer div p {
+    font-size: 1rem;
+    color: #6b717f;
+    line-height: 1.5;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: left;
+    padding-top: 10px;
+    gap: 20px;
+  }
+  footer ul li {
+    list-style: none;
+  }
+  footer ul li a {
+    border-bottom: 1px solid rgba(218, 219, 223, 0.5);
+    color: #036;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  footer .macStadium-logo img {
+    width: 112px;
+    height: 46px;
+  }
+  footer div {
+    padding: 10px;
+  }
+  footer div button {
+    height: 30px;
+    border: none;
+    box-sizing: border-box;
+    padding: 1px 12px 1px 12px;
+    background-color: #1d9bf0;
+    color: #fff;
+    border-radius: 9999px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=style.css.map */
