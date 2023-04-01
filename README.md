@@ -1,4 +1,4 @@
-|         | Task    | Status |Deployment|
+|         | Tasks    | Status |Deployment|
 | ------ | ----------- |------------|-------|
 | 1      | <span style="color:red">HTML Basic/span>| <span style="color:white; bakground-color: green">✓</span>||
 | 2      | <span style="color:green">CSS Basic</span>    |<span style="color:white; bakground-color: green">✓</span>||
