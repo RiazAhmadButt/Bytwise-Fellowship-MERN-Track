@@ -6,5 +6,5 @@
 | 4      | <h4>Learn Flexbox</h4>|<h3>✓</h3>|https://flexboxtask4.netlify.app/|
 | 5      | <h4>Sass</h4> |<h3>✓</h3>|https://sass-website-clone.netlify.app/|
 | 6      | <h4>Learn Tailwind</h4> |<h3></h3>||
-| 7      | <h4>Learn JavaScript Fundamentals</h4> |<h3></h3>|
+| 7      | <h4>Learn JavaScript Fundamentals</h4> |<h3>✓</h3>|
 
