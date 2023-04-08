@@ -1,0 +1,22 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-color: rgb(2, 120, 174);
+}
+.navbar{
+    background-color: rgb(2, 120, 174);
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+}
+.btn{
+   background-color: #EAB939; 
+   color: rgb(33, 37, 41);
+   border: 1px solid #EAB939;
+}
+.bg{
+   background-color: rgb(7, 104, 159); 
+}
+.text-border{
+    border: 1px solid rgb(234, 185, 57);
+}
