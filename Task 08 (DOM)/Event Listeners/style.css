@@ -1,0 +1,53 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: cadetblue;
+    color: white;
+}
+
+.conatainer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    border: 4px solid white;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.boxes {
+    border: 4px solid white;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.reveal-btn {
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(169, 169, 169, 0.56);
+}
