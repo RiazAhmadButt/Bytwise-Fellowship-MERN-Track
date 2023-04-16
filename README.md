@@ -7,4 +7,4 @@
 | 5      | <h4>Sass</h4> |<h3>✓</h3>|https://sass-website-clone.netlify.app/|
 | 6      | <h4>Learn Tailwind</h4> |<h3>✓</h3>|https://keerki-tailwind.netlify.app/|
 | 7      | <h4>Learn JavaScript Fundamentals</h4> |<h3>✓</h3>|
-| 8      | <h4>Learn JavaScript Fundamentals</h4> <br> <ul><li>DOM Selectors and styling</li><li>DOM Create Elements</li><li>Event Listeners</li> </ul> |<h3>✓</h3>| <ul><li>[DOM Selectors and styling](https://domselectorelements.netlify.app/)</li><li>[DOM Create Elements](https://createelementmethods.netlify.app/)</li><li>[Event Listeners](https://eventlistenersdom.netlify.app/)</li> </ul>|
+| 8      | <h4>Learn JavaScript DOM</h4> <br> <ul><li>DOM Selectors and styling</li><li>DOM Create Elements</li><li>Event Listeners</li> </ul> |<h3>✓</h3>| <ul><li>[DOM Selectors and styling](https://domselectorelements.netlify.app/)</li><li>[DOM Create Elements](https://createelementmethods.netlify.app/)</li><li>[Event Listeners](https://eventlistenersdom.netlify.app/)</li> </ul>|
