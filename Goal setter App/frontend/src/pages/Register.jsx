@@ -11,14 +11,15 @@ export const Register = () => {
     });
     const { name, email, password, confirmPassword } = formData
 
-    const onChange = () => {
-
+    const onChange = (e) => {
+        setFormData((prevState)=>({
+            ...prevState,
+            [e.target.name]: e.target.value,
+        }))
     }
-    const onSubmit = () => {
-
+    const onSubmit = (e) => {
+        e.preventDefault();
     }
-
-
 
     return (
         <>
