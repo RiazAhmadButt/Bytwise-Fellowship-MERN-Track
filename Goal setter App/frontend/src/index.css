@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.page{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.page-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-size: 2rem;
+}
+.heading p{
+    font-size: 1rem;
+    color: gray;
+    font-weight: bold;
+}
+.form-group{
+    margin: 10px;
+}
+.form{
+    width: 400px;
+}
+.form-group input{
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    width: 100%;
+
+}
+.btn{
+    width: 100%;
+    height: 30px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
