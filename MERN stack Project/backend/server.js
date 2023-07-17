@@ -15,7 +15,7 @@ db();
 app.use(express.json());
 
 // static storage for images store
-app.use('./storage', express.static('storage'));
+app.use('/storage', express.static('storage'));
 
 
 app.use(routes);

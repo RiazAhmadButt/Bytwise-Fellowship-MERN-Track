@@ -184,7 +184,6 @@ const authController = {
 
     },
 
-
     // logout 
     async logout(req, resp, next) {
         console.log(req);

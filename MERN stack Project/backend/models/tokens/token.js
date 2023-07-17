@@ -4,7 +4,7 @@ const { Schema } = mongoose;
 
 const refreshTokenSchema = Schema({
     token: { type: String, required: true },
-    userId: { type:mongoose.Schema.Types.ObjectId, ref: 'users' }
+    userId: { type:mongoose.Schema.Types.ObjectId, ref: 'User' }
 },
     { timestemps: true }
 );

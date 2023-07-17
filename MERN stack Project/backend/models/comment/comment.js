@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const commentSchema = new Schema({
-    content: { type: string, required: true },
-    blog: { type: mongoose.SchemaType.objectId, required: true },
-    author: { type: mongoose.SchemaType.objectId, required: true }
+    content: { type: String, required: true },
+    blog: { type: mongoose.Schema.Types.ObjectId, ref: 'Blog' },
+    author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
 },
     {
         timeStamps: true
