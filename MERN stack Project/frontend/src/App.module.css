@@ -1,0 +1,9 @@
+.container{
+    margin: 20px;
+    
+}
+.footer{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}

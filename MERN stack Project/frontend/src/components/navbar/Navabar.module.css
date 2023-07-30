@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.activeStyle{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.inActiveStyle{
+    text-decoration: none;
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: purple;
+}
+.loginbtn button{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+.signupbtn button{
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+.loginbtn button:hover{
+    background-color: white;
+    color: black;
+}
+.signout button{
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+.signout button:hover{
+    background-color: white;
+    color: black;
+}
+.line{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
