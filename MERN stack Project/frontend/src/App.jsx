@@ -5,6 +5,7 @@ import { Footer } from './components/footer/Footer';
 import Protected from './components/protected/Protected';
 
 import styles from "./App.module.css";
+import { Login } from './pages/login/Login';
 
 function App() {
   const isAuth = false;
@@ -28,7 +29,7 @@ function App() {
               </Protected>
             }
             />
-            <Route path='/login' exact element={<div>Login</div>} />
+            <Route path='/login' exact element={<Login />} />
             <Route path='/signup' exact element={<div>Sign Up</div>} />
             <Route path='*' exact element={<div>404 Error</div>} />
           </Routes>

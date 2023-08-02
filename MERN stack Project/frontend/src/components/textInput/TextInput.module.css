@@ -1,0 +1,23 @@
+.textInputWrapper {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textInputWrapper input {
+    padding: 15px 30px;
+    margin: 15px;
+    outline: none;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+p {
+    color: red;
+    text-align: left;
+    width: 30%;
+    display: flex;
+}
